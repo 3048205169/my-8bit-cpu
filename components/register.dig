@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<circuit>
+  <version>2</version>
+  <attributes>
+    <entry>
+      <string>romContent</string>
+      <romList>
+        <roms/>
+      </romList>
+    </entry>
+    <entry>
+      <string>Width</string>
+      <int>5</int>
+    </entry>
+  </attributes>
+  <visualElements>
+    <visualElement>
+      <elementName>In</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Label</string>
+          <string>Din</string>
+        </entry>
+        <entry>
+          <string>intFormat</string>
+          <intFormat>bin</intFormat>
+        </entry>
+      </elementAttributes>
+      <pos x="-2340" y="320"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Out</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Label</string>
+          <string>Out</string>
+        </entry>
+        <entry>
+          <string>intFormat</string>
+          <intFormat>bin</intFormat>
+        </entry>
+      </elementAttributes>
+      <pos x="-1420" y="500"/>
+    </visualElement>
+    <visualElement>
+      <elementName>latch.dig</elementName>
+      <elementAttributes/>
+      <pos x="-1980" y="320"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Clock</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Label</string>
+          <string>clock</string>
+        </entry>
+      </elementAttributes>
+      <pos x="-2340" y="520"/>
+    </visualElement>
+    <visualElement>
+      <elementName>latch.dig</elementName>
+      <elementAttributes/>
+      <pos x="-1780" y="480"/>
+    </visualElement>
+    <visualElement>
+      <elementName>In</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Label</string>
+          <string>WE</string>
+        </entry>
+        <entry>
+          <string>intFormat</string>
+          <intFormat>bin</intFormat>
+        </entry>
+      </elementAttributes>
+      <pos x="-2340" y="620"/>
+    </visualElement>
+    <visualElement>
+      <elementName>AND.dig</elementName>
+      <elementAttributes/>
+      <pos x="-2120" y="580"/>
+    </visualElement>
+    <visualElement>
+      <elementName>NOT.dig</elementName>
+      <elementAttributes/>
+      <pos x="-2240" y="580"/>
+    </visualElement>
+  </visualElements>
+  <wires>
+    <wire>
+      <p1 x="-2340" y="320"/>
+      <p2 x="-1980" y="320"/>
+    </wire>
+    <wire>
+      <p1 x="-1820" y="480"/>
+      <p2 x="-1780" y="480"/>
+    </wire>
+    <wire>
+      <p1 x="-2180" y="580"/>
+      <p2 x="-2120" y="580"/>
+    </wire>
+    <wire>
+      <p1 x="-2260" y="580"/>
+      <p2 x="-2240" y="580"/>
+    </wire>
+    <wire>
+      <p1 x="-1840" y="340"/>
+      <p2 x="-1820" y="340"/>
+    </wire>
+    <wire>
+      <p1 x="-1640" y="500"/>
+      <p2 x="-1420" y="500"/>
+    </wire>
+    <wire>
+      <p1 x="-2340" y="520"/>
+      <p2 x="-2260" y="520"/>
+    </wire>
+    <wire>
+      <p1 x="-2260" y="520"/>
+      <p2 x="-1780" y="520"/>
+    </wire>
+    <wire>
+      <p1 x="-2020" y="360"/>
+      <p2 x="-1980" y="360"/>
+    </wire>
+    <wire>
+      <p1 x="-2060" y="600"/>
+      <p2 x="-2020" y="600"/>
+    </wire>
+    <wire>
+      <p1 x="-2340" y="620"/>
+      <p2 x="-2120" y="620"/>
+    </wire>
+    <wire>
+      <p1 x="-2020" y="360"/>
+      <p2 x="-2020" y="600"/>
+    </wire>
+    <wire>
+      <p1 x="-2260" y="520"/>
+      <p2 x="-2260" y="580"/>
+    </wire>
+    <wire>
+      <p1 x="-1820" y="340"/>
+      <p2 x="-1820" y="480"/>
+    </wire>
+  </wires>
+  <measurementOrdering/>
+</circuit>
