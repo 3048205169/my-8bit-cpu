@@ -489,16 +489,6 @@
       <pos x="640" y="780"/>
     </visualElement>
     <visualElement>
-      <elementName>Out</elementName>
-      <elementAttributes>
-        <entry>
-          <string>Label</string>
-          <string>V_arith</string>
-        </entry>
-      </elementAttributes>
-      <pos x="1080" y="800"/>
-    </visualElement>
-    <visualElement>
       <elementName>OR.dig</elementName>
       <elementAttributes/>
       <pos x="900" y="660"/>
@@ -507,16 +497,6 @@
       <elementName>NOT.dig</elementName>
       <elementAttributes/>
       <pos x="980" y="680"/>
-    </visualElement>
-    <visualElement>
-      <elementName>Out</elementName>
-      <elementAttributes>
-        <entry>
-          <string>Label</string>
-          <string>ARITH_EN</string>
-        </entry>
-      </elementAttributes>
-      <pos x="1080" y="680"/>
     </visualElement>
     <visualElement>
       <elementName>AND.dig</elementName>
@@ -712,10 +692,6 @@
       <p2 x="1060" y="800"/>
     </wire>
     <wire>
-      <p1 x="1060" y="800"/>
-      <p2 x="1080" y="800"/>
-    </wire>
-    <wire>
       <p1 x="1000" y="-420"/>
       <p2 x="1480" y="-420"/>
     </wire>
@@ -754,10 +730,6 @@
     <wire>
       <p1 x="1040" y="680"/>
       <p2 x="1060" y="680"/>
-    </wire>
-    <wire>
-      <p1 x="1060" y="680"/>
-      <p2 x="1080" y="680"/>
     </wire>
     <wire>
       <p1 x="-240" y="-300"/>
